@@ -1,0 +1,28 @@
+.el-table {
+  td.el-table__cell {
+    border-bottom: 1px solid #eff1f4;
+  }
+  .cell {
+    color: #515a6e;
+  }
+  th.el-table__cell {
+    background: rgba(238, 238, 240, 0.4);
+    color: #515a6e;
+  }
+}
+.el-pagination {
+  margin-top: 20px;
+  text-align: right;
+  .el-pager li {
+    width: 24px;
+    height: 25px;
+  }
+  button {
+    width: 59px;
+    height: 25px;
+    span {
+      height: 25px;
+      line-height: 25px;
+    }
+  }
+}
